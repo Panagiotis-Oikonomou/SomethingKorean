@@ -12,6 +12,7 @@ body {
     grid-gap: 5px;
     width: 100%;
     color: white;
+	padding-bottom: 10px;
 }
 
 .header {
@@ -28,7 +29,6 @@ body {
     grid-column: 1 / 13;
     padding-left: 5px;
     padding-right: 5px;
-	padding-bottom: 10px;
     font-weight: 100;
 }
 
@@ -109,6 +109,7 @@ img:hover {
 @media screen and (min-width: 1000px) {
     .container {
         grid-template-columns: repeat(10, 1fr);
+		padding-bottom: 0px;
     }
 
     .header {
@@ -153,7 +154,6 @@ img:hover {
         grid-column: 3 / 11;
         padding-left: 10px;
         padding-right: 5px;
-		padding-bottom: 0px;
         border-left: 2px solid white;
         height: 87vh;
         overflow-x: auto;
